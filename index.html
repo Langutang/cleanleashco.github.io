@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CleanLeashCo - Redirecting...</title>
+    <meta http-equiv="refresh" content="0; url=https://cleanleashco.com">
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            color: white;
+            text-align: center;
+        }
+        .container {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+        .spinner {
+            width: 40px;
+            height: 40px;
+            border: 4px solid rgba(255, 255, 255, 0.3);
+            border-top: 4px solid white;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 20px;
+        }
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        h1 {
+            margin: 0 0 10px 0;
+            font-size: 2em;
+            font-weight: 300;
+        }
+        p {
+            margin: 0;
+            opacity: 0.9;
+            font-size: 1.1em;
+        }
+        .link {
+            margin-top: 20px;
+        }
+        .link a {
+            color: white;
+            text-decoration: underline;
+            font-weight: 500;
+        }
+        .link a:hover {
+            opacity: 0.8;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="spinner"></div>
+        <h1>CleanLeashCo</h1>
+        <p>Redirecting you to our main website...</p>
+        <div class="link">
+            <a href="https://cleanleashco.com">Click here if you're not redirected automatically</a>
+        </div>
+    </div>
+
+    <script>
+        // JavaScript fallback for immediate redirect
+        window.location.href = 'https://cleanleashco.com';
+    </script>
+</body>
+</html> 
